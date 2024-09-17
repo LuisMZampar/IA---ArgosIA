@@ -1,29 +1,46 @@
-🎯 ArgosIA
-🛍️ Descrição do Projeto
-ArgosIA é um sistema inovador de recomendação de produtos, focado em entender o comportamento de compra de diferentes perfis de clientes e seus remetentes. O objetivo é criar uma experiência de recomendação personalizada e precisa, capturando não apenas as preferências do cliente principal, mas também de quem ele compra regularmente.
+** 🎯 ArgosIA - Sistema Inteligente de Recomendação de Produtos
 
-🔍 A aplicação permite que cada usuário escolha um público-alvo específico para receber recomendações, filtrando por dados como gênero e idade. O sistema usa essas informações para sugerir produtos relevantes, criando uma "árvore genealógica" de remetentes de compra para cada perfil.
+------
 
-🛠️ Funcionalidade Principal
-💡 Cada cliente pode associar perfis de remetentes ao seu próprio perfil, indicando para quem realiza compras regularmente. A partir dessas associações, o sistema identifica remetentes-alvo e recomenda produtos baseados nas preferências e características desses indivíduos.
+**📖 Descrição do Projeto
+O ArgosIA é uma solução inteligente de recomendação de produtos que busca capturar não apenas as preferências do cliente principal, mas também dos seus remetentes de compra, ou seja, pessoas para quem o cliente frequentemente compra. A proposta é criar uma experiência de compra personalizada, sugerindo produtos para os perfis de compradores e seus remetentes, levando em consideração fatores como gênero, idade e histórico de compras.
 
-🌟 Exemplo:
-Uma senhora de 65 anos compra regularmente para seu filho de 17 anos (remetente 1, sexo masculino) e para uma senhora de 84 anos (remetente 2, sexo feminino).
-O ArgosIA identifica que as recomendações devem considerar o gênero e a idade dos remetentes associados, sugerindo produtos relevantes tanto para o filho quanto para a senhora de 84 anos.
-🎯 Objetivo
-Nosso objetivo com o ArgosIA é oferecer uma experiência de compra altamente personalizada. As recomendações de produtos não só atendem às necessidades do cliente, mas também às necessidades de seus remetentes. Dessa forma, facilitamos a escolha de presentes ou compras recorrentes, tornando o e-commerce mais dinâmico e personalizado.
+🔍 O sistema cria uma espécie de árvore genealógica de compras, onde é possível rastrear os remetentes regulares de cada cliente, ampliando as recomendações de produtos com maior precisão.
 
-🚀 Tecnologias Utilizadas
-Python 🐍: Para processamento e análise de dados.
-Pandas 🐼: Manipulação de dados e criação de perfis de clientes e remetentes.
-Machine Learning 🤖: Modelos como Random Forest, SVM e KNN são usados para prever produtos recomendados com base no comportamento de compra.
-⚙️ Como Funciona
-📝 O cliente cria um perfil e associa remetentes de compra.
-📊 O sistema coleta dados de idade, gênero e histórico de compras do cliente e remetentes.
-🤖 Com esses dados, modelos de machine learning geram recomendações de produtos personalizadas, tanto para o cliente quanto para os remetentes.
-🔄 As recomendações são ajustadas conforme as preferências do cliente, garantindo uma experiência de compra mais precisa.
-📋 Visão Geral
+------
+
+** 🔑 Funcionalidade Principal
+Perfis de Remetentes: O cliente pode associar perfis de pessoas para quem ele faz compras regularmente, permitindo que o sistema recomende produtos relevantes para cada um desses remetentes.
+Recomendações Personalizadas: O sistema utiliza Machine Learning para analisar o histórico de compras, sugerindo os melhores produtos para o cliente e seus remetentes com base em dados demográficos.
+
+* 🌟 Exemplo Prático:
+Uma mulher de 65 anos que compra frequentemente para seu filho de 17 anos e para uma senhora de 84 anos. O ArgosIA identifica que as recomendações devem considerar o gênero e a idade dos remetentes, fornecendo sugestões personalizadas para o filho adolescente e para a senhora idosa.
+
+------
+
+** 🎯 Objetivo
+Nosso objetivo é proporcionar uma experiência de compra altamente personalizada, facilitando a escolha de presentes ou compras recorrentes, levando em conta não apenas o cliente, mas também os remetentes. Isso amplia a capacidade do e-commerce de oferecer sugestões que realmente façam sentido para as necessidades de todos envolvidos na cadeia de compra.
+
+------
+
+** 🛠️ Tecnologias Utilizadas
+Python 🐍: Para processamento e análise dos dados.
+Pandas 🐼: Manipulação de dados e construção de perfis.
+Machine Learning 🤖: Modelos como Random Forest, SVM e KNN para prever recomendações com base no perfil de compra.
+
+------
+
+**⚙️ Como Funciona
+Criação de Perfil: O cliente cadastra seus remetentes de compra, indicando suas características (idade, gênero, etc.).
+Análise de Dados: O sistema processa essas informações para entender melhor os padrões de compra.
+Recomendações: Com base nesses dados, são geradas recomendações personalizadas tanto para o cliente quanto para os remetentes.
+Ajustes Dinâmicos: As recomendações podem ser refinadas conforme o comportamento do cliente muda, garantindo sempre sugestões relevantes.
+
+------
+
+**📋 Resumo
 Nome do Projeto: ArgosIA
+Funcionalidade: Recomendação personalizada de produtos considerando perfis de clientes e remetentes de compra
 Tecnologias: Python, Pandas, Machine Learning (Random Forest, SVM, KNN)
-Funcionalidade: Recomendação personalizada baseada no perfil do cliente e remetentes de compra
-✨ Com o ArgosIA, a personalização no e-commerce alcança novos patamares, proporcionando recomendações que realmente fazem sentido para o cliente e seus remetentes. 🎯
+
+✨ Com o ArgosIA, ampliamos a experiência de compra personalizada para atender não só os clientes, mas também aqueles que fazem parte de sua rotina de compras! 🌟
