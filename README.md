@@ -1,5 +1,7 @@
 ## 🎯 ArgosIA - Sistema Inteligente de Recomendação de Produtos
 
+Link do Youtube: https://youtu.be/bF3hnZ9ByTE?si=h8QDj2bMAPBSFSu_
+
 ------
 
 ## 📖 Descrição do Projeto
